@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JamU</string>
+
+    <string name="title_text">JAM-U</string>
+    <string name="txtGenre">Enter Genre</string>
+    <string name="txtState">Enter State</string>
+    <string name="txtCity">Enter City</string>
+    <string name="button">Search</string>
+</resources>

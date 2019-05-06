@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/title_text"
+            android:text="JAM-U"
+            android:textColor="#FF0000"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="182dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/logo"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <TextView
+            android:id="@+id/txtGenre"
+            android:layout_width="182dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Enter Genre" />
+
+        <TextView
+            android:id="@+id/txtState"
+            android:layout_width="183dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Enter State" />
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="185dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Enter City" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:text="SEARCH"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="531dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
